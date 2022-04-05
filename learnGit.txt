@@ -53,3 +53,5 @@ Initialized empty Git repository in <目录>
 
 
 让Git显示颜色：git config --global color.ui true
+配置别名：git config [--global] alias.别名 原命令   （--global 全局参数,所有Git仓库使用      原命令为多个单词可加引号）
+删除别名：.git/config文件 alias 后面，直接把对应的行删掉即可
